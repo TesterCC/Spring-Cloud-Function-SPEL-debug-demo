@@ -29,9 +29,10 @@ Spring Cloud 中的 serveless框架 Spring Cloud Function 中的 RoutingFunction
 一般步骤：
 ```
 1. 搭建测试环境（可用IDE调试）
-2. 验证触发漏洞的poc/exp `~\pentest_library\demo_dev\spring_cloud_function_spel_poc.py`
+2. 验证触发漏洞的poc/exp  `spring_cloud_function_spel_poc.py`
 3. 动态单步调试（通过IDE以Debug模式跟踪调试，观察参数变化）
 ```
+[spring_cloud_function_spel_poc.py](../spring_cloud_function_spel_poc.py)
 
 1.看官方的补丁，这个commit还是挺明显的。
 - [spring-cloud-function官方修复记录](https://github.com/spring-cloud/spring-cloud-function/commit/0e89ee27b2e76138c16bcba6f4bca906c4f3744f)
